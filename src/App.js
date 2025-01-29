@@ -15,7 +15,7 @@ function removeTour(id){
     return (
       <div className="refresh">
         <h2>No Tours Left</h2>
-        <button onClick={ () => setTours(data)}>Refresh</button>
+        <button onClick={ () => setTours(data)} className="btn-white">Refresh</button>
       </div>
     )
   }
